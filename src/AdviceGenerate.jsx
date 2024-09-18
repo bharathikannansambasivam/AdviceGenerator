@@ -21,7 +21,7 @@ function AdviceGenerate() {
     fetchAdvice();
   }, []);
   return (
-    <div className="bg-darkBlue h-screen w-screen flex justify-center  items-center font-manrope">
+    <div className="bg-darkBlue h-screen w-screen flex flex-col justify-center  items-center font-manrope">
       <div className=" bg-darkGrayishBlue w-96 h-60  flex rounded-lg  flex-col  items-center justify-around p-7 text-center">
         <h3 className="text-neonGreen  tracking-widest  font-manrope font-medium text-sm">
           ADVICE #{adviceID}
@@ -32,7 +32,7 @@ function AdviceGenerate() {
       </div>
       <button
         onClick={fetchAdvice}
-        className="p-3 rounded-full bg-neonGreen absolute bottom-1/3 mb-5 hover:backdrop-blur-3xl hover:bg-opacity-75 "
+        className="p-3 rounded-full bg-neonGreen  relative bottom-5  hover:backdrop-blur-3xl hover:bg-opacity-75 "
       >
         <img src={dice} alt="Generate Advice" />
       </button>

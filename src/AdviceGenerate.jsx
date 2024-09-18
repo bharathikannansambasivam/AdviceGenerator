@@ -22,7 +22,7 @@ function AdviceGenerate() {
   }, []);
   return (
     <div className="bg-darkBlue h-screen w-screen flex flex-col justify-center  items-center font-manrope">
-      <div className=" bg-darkGrayishBlue w-80 sm:w-2/4  h-60  flex rounded-lg  flex-col  items-center justify-around p-7 text-center">
+      <div className=" bg-darkGrayishBlue w-80 sm:w-96  h-60  flex rounded-lg  flex-col  items-center justify-around p-7 text-center">
         <h3 className="text-neonGreen  tracking-widest  font-manrope font-medium text-sm">
           ADVICE #{adviceID}
         </h3>
